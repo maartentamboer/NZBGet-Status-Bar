@@ -7,9 +7,26 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "DSJSONRPC.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (weak) IBOutlet NSMenu *statusMenu;
+
+@property (strong, nonatomic) NSStatusItem *statusBar;
+
+
+@property (weak) IBOutlet NSMenuItem *downSpeed;
+
+
+@property (weak) IBOutlet NSMenu *queueList;
+
+
+@property (strong, nonatomic) DSJSONRPC *_jsonRPC;
+
+@property (strong) NSTimer *updateTimer;
 
 @end
