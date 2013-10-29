@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DSJSONRPC.h"
+#import "SettingsWindowController.h"
 
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
@@ -28,5 +29,7 @@
 @property (strong, nonatomic) DSJSONRPC *_jsonRPC;
 
 @property (strong) NSTimer *updateTimer;
+
+@property (strong) SettingsWindowController *settingsWindow;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SettingsWindowController.h"
 
 
 @implementation AppDelegate
@@ -16,6 +17,8 @@
 @synthesize statusBar = _statusBar;
 
 @synthesize queueList = _queueList;
+
+@synthesize settingsWindow = _settingsWindow;
 
 
 
@@ -41,7 +44,7 @@
     
     self.statusBar.menu = self.statusMenu;
     self.statusBar.highlightMode = YES;
-   _updateTimer =  [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTicked:) userInfo:nil repeats:YES];
+   //_updateTimer =  [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTicked:) userInfo:nil repeats:YES];
 }
 
 - (IBAction)clickedRefresh:(NSMenuItem *)sender {
@@ -55,13 +58,13 @@
     // We're going to use a standard completion handler for our json-rpc calls
     DSJSONRPCCompletionHandler completionHandler = ^(NSString *methodName, NSInteger callId, id methodResult, DSJSONRPCError *methodError, NSError *internalError) {
         if (methodError) {
-            NSLog(@"\nMethod %@(%i) returned an error: %@\n\n", methodName, callId, methodError);
+            NSLog(@"\nMethod %@(%li) returned an error: %@\n\n", methodName, (long)callId, methodError);
         }
         else if (internalError) {
-            NSLog(@"\nMethod %@(%i) couldn't be sent with error: %@\n\n", methodName, callId, internalError);
+            NSLog(@"\nMethod %@(%li) couldn't be sent with error: %@\n\n", methodName, (long)callId, internalError);
         }
         else {
-            NSLog(@"\nMethod %@(%i) completed with result: %@\n\n", methodName, callId, methodResult);
+            NSLog(@"\nMethod %@(%li) completed with result: %@\n\n", methodName, (long)callId, methodResult);
             //NSLog(@"Result %@\n",[methodResult objectForKey:@"DownloadRate"]);
             //NSLog(@"Val = %@");
         }
@@ -80,14 +83,33 @@
     _updateTimer = nil;
     _updateTimer =  [NSTimer scheduledTimerWithTimeInterval:5.0 target:self selector:@selector(timerTicked:) userInfo:nil repeats:YES];
     
-
+    //NSUserNotification *notification = [[NSUserNotification alloc] init];
+    //notification.title = @"Hello, World!";
+    //notification.informativeText = @"A notification";
+    //notification.soundName = NSUserNotificationDefaultSoundName;
+    
+   // [[NSUserNotificationCenter defaultUserNotificationCenter] deliverNotification:notification];
     
 }
 
 
 - (IBAction)clickedPref:(NSMenuItem *)sender {
+    NSLog(@"Preferences Clicked!\n");
+    _settingsWindow = [[SettingsWindowController alloc] init];
+    [_settingsWindow showWindow:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(preferencesWillClose:)
+												 name:NSWindowWillCloseNotification
+											   object:[_settingsWindow window]];
 }
 
-
+- (void)preferencesWillClose:(NSNotification *)notification {
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+													name:NSWindowWillCloseNotification
+												  object:[_settingsWindow window]];
+	_settingsWindow = nil;
+    NSLog(@"Preferences Closed!\n");
+	//[self userDefaultsDidChange:nil];
+}
 
 @end
