@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863EABAD1827F73C00423A50 /* mainicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 863EABA81827F73C00423A50 /* mainicon.icns */; };
+		863EABAE1827F73C00423A50 /* statusicon-inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 863EABA91827F73C00423A50 /* statusicon-inv.png */; };
+		863EABAF1827F73C00423A50 /* statusicon-inv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 863EABAA1827F73C00423A50 /* statusicon-inv@2x.png */; };
+		863EABB01827F73C00423A50 /* statusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 863EABAB1827F73C00423A50 /* statusicon.png */; };
+		863EABB11827F73C00423A50 /* statusicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 863EABAC1827F73C00423A50 /* statusicon@2x.png */; };
 		868FB32F181D7A9F00C8CD9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868FB32E181D7A9F00C8CD9A /* Cocoa.framework */; };
 		868FB339181D7A9F00C8CD9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 868FB337181D7A9F00C8CD9A /* InfoPlist.strings */; };
 		868FB33B181D7A9F00C8CD9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 868FB33A181D7A9F00C8CD9A /* main.m */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		863EABA81827F73C00423A50 /* mainicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mainicon.icns; sourceTree = "<group>"; };
+		863EABA91827F73C00423A50 /* statusicon-inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusicon-inv.png"; sourceTree = "<group>"; };
+		863EABAA1827F73C00423A50 /* statusicon-inv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusicon-inv@2x.png"; sourceTree = "<group>"; };
+		863EABAB1827F73C00423A50 /* statusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusicon.png; sourceTree = "<group>"; };
+		863EABAC1827F73C00423A50 /* statusicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusicon@2x.png"; sourceTree = "<group>"; };
 		868FB32B181D7A9F00C8CD9A /* NZBGet_Status_Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NZBGet_Status_Bar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868FB32E181D7A9F00C8CD9A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		868FB331181D7A9F00C8CD9A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -85,9 +95,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863EABA61827F73C00423A50 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				863EABA71827F73C00423A50 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		863EABA71827F73C00423A50 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				863EABA81827F73C00423A50 /* mainicon.icns */,
+				863EABA91827F73C00423A50 /* statusicon-inv.png */,
+				863EABAA1827F73C00423A50 /* statusicon-inv@2x.png */,
+				863EABAB1827F73C00423A50 /* statusicon.png */,
+				863EABAC1827F73C00423A50 /* statusicon@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		868FB322181D7A9F00C8CD9A = {
 			isa = PBXGroup;
 			children = (
+				863EABA61827F73C00423A50 /* Resources */,
 				868FB385181EF4ED00C8CD9A /* DSJSONRPC */,
 				868FB334181D7A9F00C8CD9A /* NZBGet_Status_Bar */,
 				868FB352181D7A9F00C8CD9A /* NZBGet_Status_BarTests */,
@@ -258,11 +289,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863EABAD1827F73C00423A50 /* mainicon.icns in Resources */,
+				863EABAF1827F73C00423A50 /* statusicon-inv@2x.png in Resources */,
 				868FB339181D7A9F00C8CD9A /* InfoPlist.strings in Resources */,
+				863EABB01827F73C00423A50 /* statusicon.png in Resources */,
 				868FB347181D7A9F00C8CD9A /* Images.xcassets in Resources */,
 				868FB33F181D7A9F00C8CD9A /* Credits.rtf in Resources */,
 				868FB345181D7A9F00C8CD9A /* MainMenu.xib in Resources */,
+				863EABAE1827F73C00423A50 /* statusicon-inv.png in Resources */,
 				868FB3951820247F00C8CD9A /* SettingsWindowController.xib in Resources */,
+				863EABB11827F73C00423A50 /* statusicon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +456,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NZBGet_Status_Bar/NZBGet_Status_Bar-Prefix.pch";
 				INFOPLIST_FILE = "NZBGet_Status_Bar/NZBGet_Status_Bar-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NZBGet_Status_Bar/NZBGet_Status_Bar-Prefix.pch";
 				INFOPLIST_FILE = "NZBGet_Status_Bar/NZBGet_Status_Bar-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

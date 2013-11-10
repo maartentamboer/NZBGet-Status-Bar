@@ -26,4 +26,7 @@
 
 @property (strong, nonatomic) DSJSONRPC *_jsonRPC;
 
+-(void)getNZBGeturl:(NSString *)sURL;
+
+
 @end

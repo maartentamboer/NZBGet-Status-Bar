@@ -131,5 +131,12 @@
     [_updateLow setEnabled:[sender state]];
 }
 
+- (void)getNZBGeturl:(NSString *)sURL{
+  //  NSString *username =[_NZBGet_Username stringValue];
+  //  NSString *password =[_NZBGet_Password stringValue];
+  //  NSString *location =[_NZBGet_Location stringValue];
+    //sURL = ;
+  //  [sURL setValue:[NSString stringWithFormat:@"http://%@:%@@%@/jsonrpc", username, password, location ]];
+}
 
 @end
