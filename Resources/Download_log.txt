@@ -1,0 +1,374 @@
+Geen download
+
+2013-11-04 17:15:16.368 NZBGet_Status_Bar[4932:303] 
+Method status(-1760457797) completed with result: {
+    AverageDownloadRate = 6569694;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 0;
+    DownloadTimeSec = 21785;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = 1386881899;
+    DownloadedSizeMB = 136490;
+    FreeDiskSpaceHi = 299;
+    FreeDiskSpaceLo = 609579008;
+    FreeDiskSpaceMB = 1225285;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 1;
+    ThreadCount = 6;
+    UpTimeSec = 7373583;
+    UrlCount = 0;
+}
+
+Wel Download:
+2013-11-04 17:17:40.908 NZBGet_Status_Bar[5020:303] 
+Method status(-1413081693) completed with result: {
+    AverageDownloadRate = 6569527;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 6486515;
+    DownloadTimeSec = 21825;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = 1646015999;
+    DownloadedSizeMB = 136737;
+    FreeDiskSpaceHi = 299;
+    FreeDiskSpaceLo = 332767232;
+    FreeDiskSpaceMB = 1225021;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 1767819591;
+    RemainingSizeMB = 1685;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 0;
+    ThreadCount = 14;
+    UpTimeSec = 7373728;
+    UrlCount = 0;
+}
+
+Method status(1618609881) completed with result: {
+    AverageDownloadRate = 6569437;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 6426313;
+    DownloadTimeSec = 21841;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = 1749158883;
+    DownloadedSizeMB = 136836;
+    FreeDiskSpaceHi = 299;
+    FreeDiskSpaceLo = 233562112;
+    FreeDiskSpaceMB = 1224926;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 1666801991;
+    RemainingSizeMB = 1589;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 0;
+    ThreadCount = 14;
+    UpTimeSec = 7373744;
+    UrlCount = 0;
+}
+
+
+2013-11-04 17:20:15.014 NZBGet_Status_Bar[5020:303] 
+Method status(1257004848) completed with result: {
+    AverageDownloadRate = 6569233;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 6302341;
+    DownloadTimeSec = 21979;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-1643710978";
+    DownloadedSizeMB = 137696;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-625922048";
+    FreeDiskSpaceMB = 1224107;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 792741191;
+    RemainingSizeMB = 756;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 0;
+    ThreadCount = 14;
+    UpTimeSec = 7373882;
+    UrlCount = 0;
+}
+
+****************PAUZE****************
+
+2013-11-04 17:21:02.849 NZBGet_Status_Bar[5020:303] 
+Method status(-842729767) completed with result: {
+    AverageDownloadRate = 6568744;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 0;
+    DownloadTimeSec = 22008;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-1463952456";
+    DownloadedSizeMB = 137867;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-791977984";
+    FreeDiskSpaceMB = 1223948;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 1;
+    ThreadCount = 6;
+    UpTimeSec = 7373930;
+    UrlCount = 0;
+}
+
+******Checking********
+2013-11-04 17:23:10.228 NZBGet_Status_Bar[5020:303] 
+Method status(206788450) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1430614016";
+    FreeDiskSpaceMB = 1223339;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374057;
+    UrlCount = 0;
+}
+
+
+2013-11-04 17:23:31.930 NZBGet_Status_Bar[5020:303] 
+Method status(1007726341) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1407660032";
+    FreeDiskSpaceMB = 1223361;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374079;
+}
+
+2013-11-04 17:26:40.601 NZBGet_Status_Bar[5020:303] 
+Method status(-1186224112) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1407651840";
+    FreeDiskSpaceMB = 1223361;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374268;
+    UrlCount = 0;
+}
+
+*****POST processing******    
+
+2013-11-04 17:28:05.276 NZBGet_Status_Bar[5020:303] 
+Method status(48091604) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1529339904";
+    FreeDiskSpaceMB = 1223245;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374352;
+}
+
+2013-11-04 17:28:18.236 NZBGet_Status_Bar[5020:303] 
+Method status(-177047158) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1688883200";
+    FreeDiskSpaceMB = 1223093;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374365;
+    UrlCount = 0;
+}
+
+2013-11-04 17:28:55.555 NZBGet_Status_Bar[5060:303] 
+Method status(-1092706754) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-2141700096";
+    FreeDiskSpaceMB = 1222661;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374403;
+    UrlCount = 0;
+}
+
+2013-11-04 17:29:51.870 NZBGet_Status_Bar[5060:303] 
+Method status(1865103910) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 1;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = 1468538880;
+    FreeDiskSpaceMB = 1222008;
+    ParJobCount = 1;
+    PostJobCount = 1;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 1;
+    ServerStandBy = 1;
+    ThreadCount = 7;
+    UpTimeSec = 7374459;
+    UrlCount = 0;
+}
+
+
+*****Complete*****
+
+2013-11-04 17:30:52.024 NZBGet_Status_Bar[5060:303] 
+Method status(1833421523) completed with result: {
+    AverageDownloadRate = 6568334;
+    Download2Paused = 0;
+    DownloadLimit = 0;
+    DownloadPaused = 0;
+    DownloadRate = 0;
+    DownloadTimeSec = 22106;
+    DownloadedSizeHi = 33;
+    DownloadedSizeLo = "-829292258";
+    DownloadedSizeMB = 138473;
+    FreeDiskSpaceHi = 298;
+    FreeDiskSpaceLo = "-1425543168";
+    FreeDiskSpaceMB = 1223344;
+    ParJobCount = 0;
+    PostJobCount = 0;
+    PostPaused = 0;
+    RemainingSizeHi = 0;
+    RemainingSizeLo = 0;
+    RemainingSizeMB = 0;
+    ScanPaused = 0;
+    ServerPaused = 0;
+    ServerStandBy = 1;
+    ThreadCount = 6;
+    UpTimeSec = 7374519;
+    UrlCount = 0;
+}
+
